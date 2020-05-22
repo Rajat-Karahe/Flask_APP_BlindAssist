@@ -1,6 +1,6 @@
-# Flask_APP_BlindAssist
+# Flask_APP_BlindAssist 
 
-##Live Deployed on Heroku :- https://blind-assist.herokuapp.com/
+## Live Deployed on Heroku :- https://blind-assist.herokuapp.com/
 
 --------------------------------------------
 
