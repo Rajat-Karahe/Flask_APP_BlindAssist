@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block content %}
+	<div class="container mx-auto text-center pt-5">
+	  <div class="row pt-5">
+    	<div class="col-md-8 mx-auto text-center">
+      		<img src="{{url_for('static',filename='images/pytorch-logo.png')}}" class="img-fluid" alt="Pytorch-logo">
+     	</div>
+  	</div>
+	  <div class="row">
+    	<div class="col-md-8 mx-auto mb-2">
+      		<h4 class="text-center">Result</h4>
+     	</div>
+  	</div>
+  	<div class="row">
+        <div class="col-md-8 mx-auto mb-5">
+            <p style="font-size: 1.8em;">It's a {{ denomination }} RS note</p>
+        </div>
+    </div>
+    <div class="row mt-2">
+      	<div class="col-md-8 mx-auto text-center">
+          <a class="btn btn-primary btn-lg" href="/">Check another</a>
+       	</div>
+    </div>
+  </div>
+		
+{% endblock %}
+
+<!-- </nav> -->
+	<!-- <div> -->
+		<!-- <img src="{{url_for('static',filename='images/pytorch-logo.png')}}" alt="pyy"> -->
+		<!-- <h2>Upload Image of Bank Note</h2> -->
+		<!-- <form method="POST" enctype=multipart/form-data style="color: fuchsia"> -->
+			<!-- <input type="file" name="file"> -->
+			<!-- <input type="submit" name="upload"> -->
+		<!-- </form> -->
+	<!-- </div> -->
+    <!-- <div> -->
