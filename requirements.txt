@@ -6,7 +6,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
 numpy==1.18.4
-Pillow==7.1.2
+Pillow==9.3.0
 PyYAML==5.3.1
 Werkzeug==1.0.1
 https://download.pytorch.org/whl/cpu/torch-1.5.0%2Bcpu-cp38-cp38-linux_x86_64.whl
